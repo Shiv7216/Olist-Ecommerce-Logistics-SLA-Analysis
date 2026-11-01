@@ -1,6 +1,6 @@
 # 📦 E-Commerce Logistics & Delivery SLA Analysis — Olist
 
-**Tools Used:** SQL (PostgreSQL / MySQL), Microsoft Excel  
+**Tools Used:** SQL (MySQL / PostgreSQL), Microsoft Excel  
 **Dataset Scope:** 100,000+ Orders | 3,000+ Sellers | 8 Relational Tables | 27 Brazilian States (2016–2018)
 
 > **Executive Impact:** Audited end-to-end fulfillment pipelines across 100K+ orders to isolate seller dispatch lags and interstate courier bottlenecks, designing dynamic route buffers projected to **cut late deliveries by 18%** and **reduce 1-star customer complaints by 60%**.
@@ -30,7 +30,7 @@ Queried and joined 8 core tables from the Olist database:
 ## 🔍 Key Analytical Findings (Matched to SQL & Excel Models)
 
 ### 1. The 80/20 Seller Dispatch Bottleneck
-* **Finding:** Using SQL Window Functions (`SUM() OVER()`, `NTILE`) to rank merchant handover speeds against `shipping_limit_date`, just **12% of sellers accounted for over 50% of all pre-shipment dispatch breaches**.
+* **Finding:** Using SQL Window Functions (`SUM() OVER()`, `ROW_NUMBER()`) to rank merchant handover speeds against `shipping_limit_date`, just **12% of sellers accounted for over 50% of all pre-shipment dispatch breaches**.
 * **Operational Takeaway:** Late deliveries are heavily skewed by a small cohort of repeat-offender merchants rather than platform-wide seller sluggishness.
 
 ### 2. Interstate Freight Friction (72% of Carrier Delays)
