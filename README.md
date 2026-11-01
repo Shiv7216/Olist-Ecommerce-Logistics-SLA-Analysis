@@ -53,3 +53,13 @@ Queried and joined 8 core tables from the Olist database:
 1. **Dynamic Interstate EDD Buffers:** Recalibrate promised delivery dates on high-variance Southeast-to-Northeast routes by adding a **+2 to +4 day predictive buffer**, reducing technical SLA breaches by an estimated **18%**.
 2. **Tiered Seller SLA Enforcement:** Place the bottom **12% of delayed merchants** on automated dispatch alerts 24 hours prior to `shipping_limit_date`, imposing commission penalties on chronic breaches to eliminate **50%+ of handover lags**.
 3. **Proactive Delay Communication:** Trigger automated status updates and freight credits when carrier transit crosses 80% of the EDD window, curbing reactive **1-star reviews by up to 60%**.
+
+---
+
+## 📊 Executive Dashboard & Relational Schema
+
+### 1. Fulfillment SLA & Customer Experience Dashboard
+![Executive Dashboard](assets/dashboard_preview.png)
+
+### 2. 8-Table Relational Database Architecture
+![Database Schema](assets/schema_diagram.png)
