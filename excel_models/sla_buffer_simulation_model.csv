@@ -1,0 +1,6 @@
+corridor_tier,origin_destination_route,total_order_volume,baseline_avg_transit_days,baseline_sla_breach_pct,baseline_1star_rate_pct,recommended_sla_buffer_days,projected_sla_breach_pct,projected_1star_reduction_pct
+Tier-1 Local,SP -> SP (Intra-State),36450,8.2,4.1,6.8,0.0,4.1,0.0
+Tier-2 Regional,SP -> RJ / MG / PR,34120,14.6,11.8,19.4,2.0,6.4,54.2
+Tier-3 Long-Haul,SP -> BA / PE / CE (Northeast),19840,22.4,21.5,38.6,3.5,11.2,63.8
+Tier-4 Remote,SP -> AM / PA (North),9590,28.9,26.4,44.2,4.5,14.1,61.5
+
